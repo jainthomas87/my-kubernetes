@@ -12,3 +12,4 @@ spec:
     path: /opt/sfw
     server: 192.168.245.128
     readOnly: false
+    
