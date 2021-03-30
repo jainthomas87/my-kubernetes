@@ -7,7 +7,7 @@ spec:
     storage: 1Gi
   accessModes:
   - ReadWriteMany
-  PersistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Retain
   nfs:
     path: /opt/sfw
     server: 192.168.245.128
