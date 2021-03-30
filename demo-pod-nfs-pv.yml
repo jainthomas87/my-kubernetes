@@ -17,4 +17,4 @@ spec:
   volumes:
     - name: nfs-vol1
       persistentVolumeClaim:
-        claimName: pvc-01          
+        claimName: pvc-01
