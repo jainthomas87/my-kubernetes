@@ -4,7 +4,9 @@ metadata:
   name: worker-app-deploy
   labels:
     name: worker-app-deploy
-    app: demo-voting-app
+    labels:
+      name: worker-app-deploy
+      app: demo-voting-app
 spec:
   replicas: 1
   selector:
